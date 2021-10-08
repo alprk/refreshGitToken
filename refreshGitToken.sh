@@ -10,10 +10,12 @@ GIT_CONFIG_PATH='/.git/config'
 
 TOKEN=$1
 PROJECT_PATH=$2
-if  [ ${3} = '-n' ]; then
+SKIP_CONFIRM=
+
+if [ ! -z "$3" ]; then
+  if [ ${3} = '-n' ]; then
     SKIP_CONFIRM=true
-else
-    SKIP_CONFIRM=false
+  fi
 fi
 
 ask() {
