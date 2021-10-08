@@ -29,6 +29,10 @@ Optionnal : You can visualize [refreshGitToken.sh](refreshGitToken.sh) script
 - Ex : `sh refreshGitoken.sh theNewToken the/absolute/path/of/your/project`
 4. Press "Enter" and follow the intructions.
 
+### No confirmation
+1. Execute the command with -n at the end
+- Ex : `sh refreshGitoken.sh theNewToken the/absolute/path/of/your/project -n`
+
 ## Demo
 
 ![Alt text](img/refreshGitToken.png "Capture")
