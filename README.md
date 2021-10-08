@@ -20,8 +20,13 @@ This script assume that you already have set a personnal acces token in your `/m
 Optionnal : You can visualize [refreshGitToken.sh](refreshGitToken.sh) script 
 
 1. Get [RefreshGitToken.sh](https://github.com/alprk/refreshGitToken/releases/download/1.0.0/refreshGitToken.sh)
-2. chmod +x refreshGitToken.sh
-3. `sh refreshGitoken.sh {yourNewToken} {absolutePathOfYourProject}`
+2. Allow execution `chmod +x refreshGitToken.sh`
+3. Call the script with 2 arguments :
+
+- Argument one `theNewToken`
+- Argument two `the/absolute/path/of/your/project`
+
+- Ex : `sh refreshGitoken.sh theNewToken the/absolute/path/of/your/project`
 4. Press "Enter" and follow the intructions.
 
 ## Demo
